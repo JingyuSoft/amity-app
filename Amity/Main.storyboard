@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Amity" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" colorLabel="IBBuiltInLabel-Red">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMf-JW-Nsn">
+                                <rect key="frame" x="200" y="320" width="200" height="25"/>
+                                <color key="backgroundColor" red="0.36862745881080627" green="0.61960786581039429" blue="0.84313732385635376" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="NmB-Vn-pn8"/>
+                                </constraints>
+                                <color key="tintColor" red="0.36862745879999997" green="0.61960786580000005" blue="0.84313732389999996" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="   Start   ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="So9-VH-t2J" kind="show" id="fbF-ic-RUp"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Amity" textAlignment="center" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="HbF-an-zOY">
+                                <rect key="frame" x="239" y="165" width="123" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Aba-Va-zxU"/>
+                                    <constraint firstAttribute="width" constant="123" id="wjM-nf-evi"/>
+                                </constraints>
+                                <color key="textColor" red="0.36862745879999997" green="0.61960786580000005" blue="0.84313732389999996" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeC-gS-pl0">
+                                <rect key="frame" x="200" y="378" width="200" height="30"/>
+                                <color key="backgroundColor" red="0.3803921938" green="0.62352943419999995" blue="0.83529418710000003" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="V3g-sS-iU1"/>
+                                </constraints>
+                                <state key="normal" title="Test Amity Service">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eRO-RO-Lut" kind="custom" identifier="test service" id="zlF-Pt-cbc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xeC-gS-pl0" firstAttribute="top" secondItem="RMf-JW-Nsn" secondAttribute="bottom" constant="30" id="3AV-Qa-nap"/>
+                            <constraint firstItem="RMf-JW-Nsn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="400" id="8YO-Qz-lDc"/>
+                            <constraint firstAttribute="centerX" secondItem="RMf-JW-Nsn" secondAttribute="centerX" id="8ze-AY-tlO"/>
+                            <constraint firstAttribute="centerX" secondItem="HbF-an-zOY" secondAttribute="centerX" id="I0h-L1-RXh"/>
+                            <constraint firstItem="HbF-an-zOY" firstAttribute="centerX" secondItem="RMf-JW-Nsn" secondAttribute="centerX" id="KHI-PF-2CV"/>
+                            <constraint firstItem="HbF-an-zOY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="145" id="biC-F8-ie7"/>
+                            <constraint firstItem="RMf-JW-Nsn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o2k-a3-b7U"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RMf-JW-Nsn" secondAttribute="bottom" constant="250" id="smm-sU-XGS"/>
+                            <constraint firstAttribute="centerX" secondItem="xeC-gS-pl0" secondAttribute="centerX" id="wZv-tr-Iqv"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="o2k-a3-b7U"/>
+                                <exclude reference="smm-sU-XGS"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Test Amity Service Controll-->
+        <scene sceneID="9Uf-HN-SNq">
+            <objects>
+                <viewController id="eRO-RO-Lut" customClass="TestAmityServiceControll" customModule="Amity" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tOn-Kn-YIU"/>
+                        <viewControllerLayoutGuide type="bottom" id="pLf-SQ-jSd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j9C-xH-G7k">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xef-ip-hOO">
+                                <rect key="frame" x="11" y="15" width="443" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="Result" destination="Xef-ip-hOO" id="YrL-Sl-ICa"/>
+                        <outlet property="ResultTextBox" destination="Xef-ip-hOO" id="jDa-Lv-xPt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IEf-yn-ikd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="946"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JEC-vE-boP">
+            <objects>
+                <viewController id="So9-VH-t2J" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U82-o6-3wr"/>
+                        <viewControllerLayoutGuide type="bottom" id="IJw-27-8T5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QW8-zf-Dmf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iP-qY-9II">
+                                <rect key="frame" x="230" y="530" width="140" height="30"/>
+                                <color key="backgroundColor" red="0.36862745879999997" green="0.61960786580000005" blue="0.84313732389999996" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="Ic5-Y9-WTx"/>
+                                </constraints>
+                                <color key="tintColor" red="0.38039219379425049" green="0.62352943420410156" blue="0.83529418706893921" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="Raise a request">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hT6-Kx-XpB" kind="custom" identifier="view map" id="anX-ap-Adp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sep-na-Ead">
+                                <rect key="frame" x="43" y="530" width="140" height="30"/>
+                                <color key="backgroundColor" red="0.3803921938" green="0.62352943419999995" blue="0.83529418710000003" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="79O-DG-CoR"/>
+                                </constraints>
+                                <state key="normal" title="Help to deliver">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="6iP-qY-9II" secondAttribute="centerX" id="1Rr-IX-UwB"/>
+                            <constraint firstAttribute="centerX" secondItem="sep-na-Ead" secondAttribute="centerX" id="5UF-qB-Dhf"/>
+                            <constraint firstItem="6iP-qY-9II" firstAttribute="top" secondItem="U82-o6-3wr" secondAttribute="bottom" constant="510" id="6zJ-cq-w1L"/>
+                            <constraint firstItem="6iP-qY-9II" firstAttribute="bottom" secondItem="sep-na-Ead" secondAttribute="bottom" id="9Lg-Vp-T92"/>
+                            <constraint firstItem="6iP-qY-9II" firstAttribute="bottom" secondItem="sep-na-Ead" secondAttribute="bottom" constant="30" id="9oy-Do-nuG"/>
+                            <constraint firstItem="6iP-qY-9II" firstAttribute="bottom" secondItem="sep-na-Ead" secondAttribute="bottom" constant="30" id="BC9-VQ-IJx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6iP-qY-9II" secondAttribute="trailing" constant="10" id="L4M-qa-EPZ"/>
+                            <constraint firstItem="sep-na-Ead" firstAttribute="leading" secondItem="QW8-zf-Dmf" secondAttribute="leadingMargin" constant="10" id="h0L-HB-8mh"/>
+                            <constraint firstItem="6iP-qY-9II" firstAttribute="leading" secondItem="sep-na-Ead" secondAttribute="leading" constant="10" id="z3F-Pe-Yfw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5UF-qB-Dhf"/>
+                                <exclude reference="1Rr-IX-UwB"/>
+                                <exclude reference="9oy-Do-nuG"/>
+                                <exclude reference="BC9-VQ-IJx"/>
+                                <exclude reference="z3F-Pe-Yfw"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XaA-8S-Ad3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="903" y="136"/>
+        </scene>
+        <!--Amity-->
+        <scene sceneID="ajy-fI-UZU">
+            <objects>
+                <viewController id="hT6-Kx-XpB" customClass="MapViewController" customModule="Amity" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Avm-n8-ido"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ob3-Ge-Gpk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gar-qI-wEP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q8M-LU-yTn" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="52" width="600" height="528"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ob3-Ge-Gpk" firstAttribute="top" secondItem="q8M-LU-yTn" secondAttribute="bottom" constant="20" id="7wk-fP-PMZ"/>
+                            <constraint firstItem="q8M-LU-yTn" firstAttribute="leading" secondItem="gar-qI-wEP" secondAttribute="leadingMargin" id="AgJ-HB-y01"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="q8M-LU-yTn" secondAttribute="trailing" id="Cyb-kn-AVj"/>
+                            <constraint firstItem="Ob3-Ge-Gpk" firstAttribute="top" secondItem="q8M-LU-yTn" secondAttribute="bottom" id="Dj9-Ka-dAN"/>
+                            <constraint firstItem="q8M-LU-yTn" firstAttribute="top" secondItem="gar-qI-wEP" secondAttribute="topMargin" id="Pcb-sN-ayw"/>
+                            <constraint firstItem="q8M-LU-yTn" firstAttribute="leading" secondItem="gar-qI-wEP" secondAttribute="leadingMargin" id="SBX-Pc-XLX"/>
+                            <constraint firstItem="q8M-LU-yTn" firstAttribute="top" secondItem="gar-qI-wEP" secondAttribute="topMargin" id="h8t-8L-bnt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="q8M-LU-yTn" secondAttribute="trailing" id="hJR-5l-dHW"/>
+                            <constraint firstItem="q8M-LU-yTn" firstAttribute="top" secondItem="Avm-n8-ido" secondAttribute="bottom" constant="30" id="hsU-2e-EDr"/>
+                            <constraint firstItem="Ob3-Ge-Gpk" firstAttribute="top" secondItem="q8M-LU-yTn" secondAttribute="bottom" id="wju-fl-wyl"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Pcb-sN-ayw"/>
+                                <exclude reference="h8t-8L-bnt"/>
+                                <exclude reference="Dj9-Ka-dAN"/>
+                                <exclude reference="wju-fl-wyl"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Amity" id="9yc-zm-lVe">
+                        <connections>
+                            <outlet property="titleView" destination="gar-qI-wEP" id="GAR-0b-vYd"/>
+                        </connections>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="q8M-LU-yTn" id="fIq-h7-1np"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="55K-NB-7ho" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1541" y="136"/>
+        </scene>
+    </scenes>
+</document>
