@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D04002F1A2117BD00D2C7CF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D04FFFE1A2117BD00D2C7CF /* MapViewController.swift */; };
+		7D0400301A2117BD00D2C7CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D04FFFF1A2117BD00D2C7CF /* ViewController.swift */; };
+		7D0400311A2117BD00D2C7CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D0400001A2117BD00D2C7CF /* LaunchScreen.xib */; };
+		7D0400321A2117BD00D2C7CF /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400061A2117BD00D2C7CF /* TBinaryProtocol.m */; };
+		7D0400331A2117BD00D2C7CF /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400091A2117BD00D2C7CF /* TProtocolException.m */; };
+		7D0400341A2117BD00D2C7CF /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04000C1A2117BD00D2C7CF /* TProtocolUtil.m */; };
+		7D0400351A2117BD00D2C7CF /* TSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04000F1A2117BD00D2C7CF /* TSocketServer.m */; };
+		7D0400361A2117BD00D2C7CF /* TApplicationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400111A2117BD00D2C7CF /* TApplicationException.m */; };
+		7D0400371A2117BD00D2C7CF /* TException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400131A2117BD00D2C7CF /* TException.m */; };
+		7D0400381A2117BD00D2C7CF /* TFramedTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400191A2117BD00D2C7CF /* TFramedTransport.m */; };
+		7D0400391A2117BD00D2C7CF /* THTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04001B1A2117BD00D2C7CF /* THTTPClient.m */; };
+		7D04003A1A2117BD00D2C7CF /* TMemoryBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04001D1A2117BD00D2C7CF /* TMemoryBuffer.m */; };
+		7D04003B1A2117BD00D2C7CF /* TNSFileHandleTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04001F1A2117BD00D2C7CF /* TNSFileHandleTransport.m */; };
+		7D04003C1A2117BD00D2C7CF /* TNSStreamTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400211A2117BD00D2C7CF /* TNSStreamTransport.m */; };
+		7D04003D1A2117BD00D2C7CF /* TSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400231A2117BD00D2C7CF /* TSocketClient.m */; };
+		7D04003E1A2117BD00D2C7CF /* TTransportException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400261A2117BD00D2C7CF /* TTransportException.m */; };
+		7D04003F1A2117BD00D2C7CF /* TSharedProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400281A2117BD00D2C7CF /* TSharedProcessorFactory.m */; };
+		7D0400401A2117BD00D2C7CF /* AmityService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04002D1A2117BD00D2C7CF /* AmityService.m */; };
+		7D0400421A2117E100D2C7CF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D0400411A2117E100D2C7CF /* Info.plist */; };
+		7D0400441A21181200D2C7CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400431A21181200D2C7CF /* AppDelegate.swift */; };
+		7D0400461A2119E800D2C7CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0400451A2119E800D2C7CF /* Main.storyboard */; };
+		7D0400481A211B3100D2C7CF /* TestAmityServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400471A211B3100D2C7CF /* TestAmityServiceController.swift */; };
+		7D04FB491A20C50200D2C7CF /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04FB481A20C50200D2C7CF /* GoogleMaps.framework */; };
+		7D04FB4D1A20C53E00D2C7CF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04FB4A1A20C53E00D2C7CF /* AVFoundation.framework */; };
+		7D04FB4E1A20C53E00D2C7CF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04FB4B1A20C53E00D2C7CF /* CoreFoundation.framework */; };
+		7D04FB4F1A20C53E00D2C7CF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04FB4C1A20C53E00D2C7CF /* CoreLocation.framework */; };
+		7D04FB571A20C59D00D2C7CF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04FB501A20C59D00D2C7CF /* CoreData.framework */; };
+		7D04FB581A20C59D00D2C7CF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04FB511A20C59D00D2C7CF /* CoreText.framework */; };
+		7D04FB591A20C59D00D2C7CF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04FB521A20C59D00D2C7CF /* GLKit.framework */; };
+		7D04FB5A1A20C59D00D2C7CF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04FB531A20C59D00D2C7CF /* ImageIO.framework */; };
+		7D04FB5B1A20C59D00D2C7CF /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04FB541A20C59D00D2C7CF /* libc++.dylib */; };
+		7D04FB5C1A20C59D00D2C7CF /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04FB551A20C59D00D2C7CF /* libicucore.dylib */; };
+		7D04FB5D1A20C59D00D2C7CF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04FB561A20C59D00D2C7CF /* libz.dylib */; };
+		7D04FB611A20C5C300D2C7CF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04FB5E1A20C5C300D2C7CF /* OpenGLES.framework */; };
+		7D04FB621A20C5C300D2C7CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04FB5F1A20C5C300D2C7CF /* QuartzCore.framework */; };
+		7D04FB631A20C5C300D2C7CF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04FB601A20C5C300D2C7CF /* SystemConfiguration.framework */; };
+		7D04FB651A20C66000D2C7CF /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7D04FB641A20C66000D2C7CF /* GoogleMaps.bundle */; };
+		7D310CFB1A1D44DA005CC355 /* AmityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D310CFA1A1D44DA005CC355 /* AmityTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D310CF51A1D44DA005CC355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D310CD71A1D44DA005CC355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D310CDE1A1D44DA005CC355;
+			remoteInfo = Amity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D0400001A2117BD00D2C7CF /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		7D0400041A2117BD00D2C7CF /* TBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBase.h; sourceTree = "<group>"; };
+		7D0400051A2117BD00D2C7CF /* TBinaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBinaryProtocol.h; sourceTree = "<group>"; };
+		7D0400061A2117BD00D2C7CF /* TBinaryProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBinaryProtocol.m; sourceTree = "<group>"; };
+		7D0400071A2117BD00D2C7CF /* TProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocol.h; sourceTree = "<group>"; };
+		7D0400081A2117BD00D2C7CF /* TProtocolException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolException.h; sourceTree = "<group>"; };
+		7D0400091A2117BD00D2C7CF /* TProtocolException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolException.m; sourceTree = "<group>"; };
+		7D04000A1A2117BD00D2C7CF /* TProtocolFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolFactory.h; sourceTree = "<group>"; };
+		7D04000B1A2117BD00D2C7CF /* TProtocolUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolUtil.h; sourceTree = "<group>"; };
+		7D04000C1A2117BD00D2C7CF /* TProtocolUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolUtil.m; sourceTree = "<group>"; };
+		7D04000E1A2117BD00D2C7CF /* TSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketServer.h; sourceTree = "<group>"; };
+		7D04000F1A2117BD00D2C7CF /* TSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketServer.m; sourceTree = "<group>"; };
+		7D0400101A2117BD00D2C7CF /* TApplicationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TApplicationException.h; sourceTree = "<group>"; };
+		7D0400111A2117BD00D2C7CF /* TApplicationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TApplicationException.m; sourceTree = "<group>"; };
+		7D0400121A2117BD00D2C7CF /* TException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TException.h; sourceTree = "<group>"; };
+		7D0400131A2117BD00D2C7CF /* TException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TException.m; sourceTree = "<group>"; };
+		7D0400141A2117BD00D2C7CF /* TObjective-C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TObjective-C.h"; sourceTree = "<group>"; };
+		7D0400151A2117BD00D2C7CF /* TProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessor.h; sourceTree = "<group>"; };
+		7D0400161A2117BD00D2C7CF /* TProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessorFactory.h; sourceTree = "<group>"; };
+		7D0400181A2117BD00D2C7CF /* TFramedTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFramedTransport.h; sourceTree = "<group>"; };
+		7D0400191A2117BD00D2C7CF /* TFramedTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFramedTransport.m; sourceTree = "<group>"; };
+		7D04001A1A2117BD00D2C7CF /* THTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTTPClient.h; sourceTree = "<group>"; };
+		7D04001B1A2117BD00D2C7CF /* THTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTTPClient.m; sourceTree = "<group>"; };
+		7D04001C1A2117BD00D2C7CF /* TMemoryBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMemoryBuffer.h; sourceTree = "<group>"; };
+		7D04001D1A2117BD00D2C7CF /* TMemoryBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMemoryBuffer.m; sourceTree = "<group>"; };
+		7D04001E1A2117BD00D2C7CF /* TNSFileHandleTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSFileHandleTransport.h; sourceTree = "<group>"; };
+		7D04001F1A2117BD00D2C7CF /* TNSFileHandleTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSFileHandleTransport.m; sourceTree = "<group>"; };
+		7D0400201A2117BD00D2C7CF /* TNSStreamTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSStreamTransport.h; sourceTree = "<group>"; };
+		7D0400211A2117BD00D2C7CF /* TNSStreamTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSStreamTransport.m; sourceTree = "<group>"; };
+		7D0400221A2117BD00D2C7CF /* TSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketClient.h; sourceTree = "<group>"; };
+		7D0400231A2117BD00D2C7CF /* TSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketClient.m; sourceTree = "<group>"; };
+		7D0400241A2117BD00D2C7CF /* TTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransport.h; sourceTree = "<group>"; };
+		7D0400251A2117BD00D2C7CF /* TTransportException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransportException.h; sourceTree = "<group>"; };
+		7D0400261A2117BD00D2C7CF /* TTransportException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTransportException.m; sourceTree = "<group>"; };
+		7D0400271A2117BD00D2C7CF /* TSharedProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSharedProcessorFactory.h; sourceTree = "<group>"; };
+		7D0400281A2117BD00D2C7CF /* TSharedProcessorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSharedProcessorFactory.m; sourceTree = "<group>"; };
+		7D04002C1A2117BD00D2C7CF /* AmityService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmityService.h; sourceTree = "<group>"; };
+		7D04002D1A2117BD00D2C7CF /* AmityService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmityService.m; sourceTree = "<group>"; };
+		7D0400411A2117E100D2C7CF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D0400431A21181200D2C7CF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D0400451A2119E800D2C7CF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7D0400471A211B3100D2C7CF /* TestAmityServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAmityServiceController.swift; sourceTree = "<group>"; };
+		7D04FB481A20C50200D2C7CF /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		7D04FB4A1A20C53E00D2C7CF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7D04FB4B1A20C53E00D2C7CF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		7D04FB4C1A20C53E00D2C7CF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7D04FB501A20C59D00D2C7CF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7D04FB511A20C59D00D2C7CF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		7D04FB521A20C59D00D2C7CF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		7D04FB531A20C59D00D2C7CF /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		7D04FB541A20C59D00D2C7CF /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		7D04FB551A20C59D00D2C7CF /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		7D04FB561A20C59D00D2C7CF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7D04FB5E1A20C5C300D2C7CF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7D04FB5F1A20C5C300D2C7CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7D04FB601A20C5C300D2C7CF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7D04FB641A20C66000D2C7CF /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		7D04FFFC1A2117BD00D2C7CF /* Amity-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Amity-Bridging-Header.h"; sourceTree = "<group>"; };
+		7D04FFFE1A2117BD00D2C7CF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7D04FFFF1A2117BD00D2C7CF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D310CDF1A1D44DA005CC355 /* Amity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D310CF41A1D44DA005CC355 /* AmityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D310CF91A1D44DA005CC355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D310CFA1A1D44DA005CC355 /* AmityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D310CDC1A1D44DA005CC355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D04FB611A20C5C300D2C7CF /* OpenGLES.framework in Frameworks */,
+				7D04FB621A20C5C300D2C7CF /* QuartzCore.framework in Frameworks */,
+				7D04FB631A20C5C300D2C7CF /* SystemConfiguration.framework in Frameworks */,
+				7D04FB5A1A20C59D00D2C7CF /* ImageIO.framework in Frameworks */,
+				7D04FB571A20C59D00D2C7CF /* CoreData.framework in Frameworks */,
+				7D04FB581A20C59D00D2C7CF /* CoreText.framework in Frameworks */,
+				7D04FB591A20C59D00D2C7CF /* GLKit.framework in Frameworks */,
+				7D04FB5B1A20C59D00D2C7CF /* libc++.dylib in Frameworks */,
+				7D04FB5C1A20C59D00D2C7CF /* libicucore.dylib in Frameworks */,
+				7D04FB5D1A20C59D00D2C7CF /* libz.dylib in Frameworks */,
+				7D04FB4D1A20C53E00D2C7CF /* AVFoundation.framework in Frameworks */,
+				7D04FB4E1A20C53E00D2C7CF /* CoreFoundation.framework in Frameworks */,
+				7D04FB4F1A20C53E00D2C7CF /* CoreLocation.framework in Frameworks */,
+				7D04FB491A20C50200D2C7CF /* GoogleMaps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D310CF11A1D44DA005CC355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D0400011A2117BD00D2C7CF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				7D0400021A2117BD00D2C7CF /* Thrift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		7D0400021A2117BD00D2C7CF /* Thrift */ = {
+			isa = PBXGroup;
+			children = (
+				7D0400031A2117BD00D2C7CF /* protocol */,
+				7D04000D1A2117BD00D2C7CF /* server */,
+				7D0400101A2117BD00D2C7CF /* TApplicationException.h */,
+				7D0400111A2117BD00D2C7CF /* TApplicationException.m */,
+				7D0400121A2117BD00D2C7CF /* TException.h */,
+				7D0400131A2117BD00D2C7CF /* TException.m */,
+				7D0400141A2117BD00D2C7CF /* TObjective-C.h */,
+				7D0400151A2117BD00D2C7CF /* TProcessor.h */,
+				7D0400161A2117BD00D2C7CF /* TProcessorFactory.h */,
+				7D0400171A2117BD00D2C7CF /* transport */,
+				7D0400271A2117BD00D2C7CF /* TSharedProcessorFactory.h */,
+				7D0400281A2117BD00D2C7CF /* TSharedProcessorFactory.m */,
+			);
+			path = Thrift;
+			sourceTree = "<group>";
+		};
+		7D0400031A2117BD00D2C7CF /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				7D0400041A2117BD00D2C7CF /* TBase.h */,
+				7D0400051A2117BD00D2C7CF /* TBinaryProtocol.h */,
+				7D0400061A2117BD00D2C7CF /* TBinaryProtocol.m */,
+				7D0400071A2117BD00D2C7CF /* TProtocol.h */,
+				7D0400081A2117BD00D2C7CF /* TProtocolException.h */,
+				7D0400091A2117BD00D2C7CF /* TProtocolException.m */,
+				7D04000A1A2117BD00D2C7CF /* TProtocolFactory.h */,
+				7D04000B1A2117BD00D2C7CF /* TProtocolUtil.h */,
+				7D04000C1A2117BD00D2C7CF /* TProtocolUtil.m */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		7D04000D1A2117BD00D2C7CF /* server */ = {
+			isa = PBXGroup;
+			children = (
+				7D04000E1A2117BD00D2C7CF /* TSocketServer.h */,
+				7D04000F1A2117BD00D2C7CF /* TSocketServer.m */,
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		7D0400171A2117BD00D2C7CF /* transport */ = {
+			isa = PBXGroup;
+			children = (
+				7D0400181A2117BD00D2C7CF /* TFramedTransport.h */,
+				7D0400191A2117BD00D2C7CF /* TFramedTransport.m */,
+				7D04001A1A2117BD00D2C7CF /* THTTPClient.h */,
+				7D04001B1A2117BD00D2C7CF /* THTTPClient.m */,
+				7D04001C1A2117BD00D2C7CF /* TMemoryBuffer.h */,
+				7D04001D1A2117BD00D2C7CF /* TMemoryBuffer.m */,
+				7D04001E1A2117BD00D2C7CF /* TNSFileHandleTransport.h */,
+				7D04001F1A2117BD00D2C7CF /* TNSFileHandleTransport.m */,
+				7D0400201A2117BD00D2C7CF /* TNSStreamTransport.h */,
+				7D0400211A2117BD00D2C7CF /* TNSStreamTransport.m */,
+				7D0400221A2117BD00D2C7CF /* TSocketClient.h */,
+				7D0400231A2117BD00D2C7CF /* TSocketClient.m */,
+				7D0400241A2117BD00D2C7CF /* TTransport.h */,
+				7D0400251A2117BD00D2C7CF /* TTransportException.h */,
+				7D0400261A2117BD00D2C7CF /* TTransportException.m */,
+			);
+			path = transport;
+			sourceTree = "<group>";
+		};
+		7D0400291A2117BD00D2C7CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D04002A1A2117BD00D2C7CF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7D04002B1A2117BD00D2C7CF /* Generated */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7D04002B1A2117BD00D2C7CF /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				7D04002C1A2117BD00D2C7CF /* AmityService.h */,
+				7D04002D1A2117BD00D2C7CF /* AmityService.m */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		7D04002E1A2117BD00D2C7CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7D04FB471A20C4EE00D2C7CF /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				7D04FB641A20C66000D2C7CF /* GoogleMaps.bundle */,
+				7D04FB5F1A20C5C300D2C7CF /* QuartzCore.framework */,
+				7D04FB601A20C5C300D2C7CF /* SystemConfiguration.framework */,
+				7D04FB501A20C59D00D2C7CF /* CoreData.framework */,
+				7D04FB511A20C59D00D2C7CF /* CoreText.framework */,
+				7D04FB521A20C59D00D2C7CF /* GLKit.framework */,
+				7D04FB531A20C59D00D2C7CF /* ImageIO.framework */,
+				7D04FB541A20C59D00D2C7CF /* libc++.dylib */,
+				7D04FB551A20C59D00D2C7CF /* libicucore.dylib */,
+				7D04FB561A20C59D00D2C7CF /* libz.dylib */,
+				7D04FB4A1A20C53E00D2C7CF /* AVFoundation.framework */,
+				7D04FB4B1A20C53E00D2C7CF /* CoreFoundation.framework */,
+				7D04FB4C1A20C53E00D2C7CF /* CoreLocation.framework */,
+				7D04FB5E1A20C5C300D2C7CF /* OpenGLES.framework */,
+				7D04FB481A20C50200D2C7CF /* GoogleMaps.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		7D04FFFB1A2117BD00D2C7CF /* Amity */ = {
+			isa = PBXGroup;
+			children = (
+				7D0400451A2119E800D2C7CF /* Main.storyboard */,
+				7D0400431A21181200D2C7CF /* AppDelegate.swift */,
+				7D0400411A2117E100D2C7CF /* Info.plist */,
+				7D04FFFC1A2117BD00D2C7CF /* Amity-Bridging-Header.h */,
+				7D04FFFD1A2117BD00D2C7CF /* Controller */,
+				7D0400001A2117BD00D2C7CF /* LaunchScreen.xib */,
+				7D0400011A2117BD00D2C7CF /* Library */,
+				7D0400291A2117BD00D2C7CF /* Model */,
+				7D04002A1A2117BD00D2C7CF /* Service */,
+				7D04002E1A2117BD00D2C7CF /* View */,
+			);
+			path = Amity;
+			sourceTree = "<group>";
+		};
+		7D04FFFD1A2117BD00D2C7CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7D04FFFE1A2117BD00D2C7CF /* MapViewController.swift */,
+				7D04FFFF1A2117BD00D2C7CF /* ViewController.swift */,
+				7D0400471A211B3100D2C7CF /* TestAmityServiceController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7D310CD61A1D44DA005CC355 = {
+			isa = PBXGroup;
+			children = (
+				7D04FFFB1A2117BD00D2C7CF /* Amity */,
+				7D04FB471A20C4EE00D2C7CF /* Framework */,
+				7D310CF71A1D44DA005CC355 /* AmityTests */,
+				7D310CE01A1D44DA005CC355 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D310CE01A1D44DA005CC355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D310CDF1A1D44DA005CC355 /* Amity.app */,
+				7D310CF41A1D44DA005CC355 /* AmityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D310CF71A1D44DA005CC355 /* AmityTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D310CFA1A1D44DA005CC355 /* AmityTests.swift */,
+				7D310CF81A1D44DA005CC355 /* Supporting Files */,
+			);
+			path = AmityTests;
+			sourceTree = "<group>";
+		};
+		7D310CF81A1D44DA005CC355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D310CF91A1D44DA005CC355 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D310CDE1A1D44DA005CC355 /* Amity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D310CFE1A1D44DA005CC355 /* Build configuration list for PBXNativeTarget "Amity" */;
+			buildPhases = (
+				7D310CDB1A1D44DA005CC355 /* Sources */,
+				7D310CDC1A1D44DA005CC355 /* Frameworks */,
+				7D310CDD1A1D44DA005CC355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amity;
+			productName = Amity;
+			productReference = 7D310CDF1A1D44DA005CC355 /* Amity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D310CF31A1D44DA005CC355 /* AmityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D310D011A1D44DA005CC355 /* Build configuration list for PBXNativeTarget "AmityTests" */;
+			buildPhases = (
+				7D310CF01A1D44DA005CC355 /* Sources */,
+				7D310CF11A1D44DA005CC355 /* Frameworks */,
+				7D310CF21A1D44DA005CC355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D310CF61A1D44DA005CC355 /* PBXTargetDependency */,
+			);
+			name = AmityTests;
+			productName = AmityTests;
+			productReference = 7D310CF41A1D44DA005CC355 /* AmityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D310CD71A1D44DA005CC355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jingyu Soft";
+				TargetAttributes = {
+					7D310CDE1A1D44DA005CC355 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					7D310CF31A1D44DA005CC355 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 7D310CDE1A1D44DA005CC355;
+					};
+				};
+			};
+			buildConfigurationList = 7D310CDA1A1D44DA005CC355 /* Build configuration list for PBXProject "Amity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				ca,
+				cs,
+				da,
+				de,
+				el,
+				en_GB,
+				es,
+				fi,
+				fr,
+				he,
+				hr,
+				hu,
+				id,
+				it,
+				ja,
+				ko,
+				ms,
+				nl,
+				no,
+				pl,
+				pt,
+				pt_PT,
+				ro,
+				ru,
+				sk,
+				sv,
+				th,
+				tr,
+				uk,
+				vi,
+				zh_CN,
+				zh_TW,
+			);
+			mainGroup = 7D310CD61A1D44DA005CC355;
+			productRefGroup = 7D310CE01A1D44DA005CC355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D310CDE1A1D44DA005CC355 /* Amity */,
+				7D310CF31A1D44DA005CC355 /* AmityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D310CDD1A1D44DA005CC355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0400311A2117BD00D2C7CF /* LaunchScreen.xib in Resources */,
+				7D0400461A2119E800D2C7CF /* Main.storyboard in Resources */,
+				7D04FB651A20C66000D2C7CF /* GoogleMaps.bundle in Resources */,
+				7D0400421A2117E100D2C7CF /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D310CF21A1D44DA005CC355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D310CDB1A1D44DA005CC355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0400481A211B3100D2C7CF /* TestAmityServiceController.swift in Sources */,
+				7D0400361A2117BD00D2C7CF /* TApplicationException.m in Sources */,
+				7D0400391A2117BD00D2C7CF /* THTTPClient.m in Sources */,
+				7D0400341A2117BD00D2C7CF /* TProtocolUtil.m in Sources */,
+				7D04003A1A2117BD00D2C7CF /* TMemoryBuffer.m in Sources */,
+				7D0400371A2117BD00D2C7CF /* TException.m in Sources */,
+				7D0400331A2117BD00D2C7CF /* TProtocolException.m in Sources */,
+				7D0400351A2117BD00D2C7CF /* TSocketServer.m in Sources */,
+				7D04003F1A2117BD00D2C7CF /* TSharedProcessorFactory.m in Sources */,
+				7D0400401A2117BD00D2C7CF /* AmityService.m in Sources */,
+				7D04003C1A2117BD00D2C7CF /* TNSStreamTransport.m in Sources */,
+				7D0400301A2117BD00D2C7CF /* ViewController.swift in Sources */,
+				7D04002F1A2117BD00D2C7CF /* MapViewController.swift in Sources */,
+				7D0400441A21181200D2C7CF /* AppDelegate.swift in Sources */,
+				7D04003B1A2117BD00D2C7CF /* TNSFileHandleTransport.m in Sources */,
+				7D0400381A2117BD00D2C7CF /* TFramedTransport.m in Sources */,
+				7D04003D1A2117BD00D2C7CF /* TSocketClient.m in Sources */,
+				7D0400321A2117BD00D2C7CF /* TBinaryProtocol.m in Sources */,
+				7D04003E1A2117BD00D2C7CF /* TTransportException.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D310CF01A1D44DA005CC355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D310CFB1A1D44DA005CC355 /* AmityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D310CF61A1D44DA005CC355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D310CDE1A1D44DA005CC355 /* Amity */;
+			targetProxy = 7D310CF51A1D44DA005CC355 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D310CFC1A1D44DA005CC355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D310CFD1A1D44DA005CC355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D310CFF1A1D44DA005CC355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMaps-iOS-1.9.0",
+					"$(PROJECT_DIR)/GoogleMaps-iOS-1.9.0/GoogleMapsSDKDemos",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = Amity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Amity/Amity-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D310D001A1D44DA005CC355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMaps-iOS-1.9.0",
+					"$(PROJECT_DIR)/GoogleMaps-iOS-1.9.0/GoogleMapsSDKDemos",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = Amity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Amity/Amity-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		7D310D021A1D44DA005CC355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amity.app/Amity";
+			};
+			name = Debug;
+		};
+		7D310D031A1D44DA005CC355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amity.app/Amity";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D310CDA1A1D44DA005CC355 /* Build configuration list for PBXProject "Amity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D310CFC1A1D44DA005CC355 /* Debug */,
+				7D310CFD1A1D44DA005CC355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D310CFE1A1D44DA005CC355 /* Build configuration list for PBXNativeTarget "Amity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D310CFF1A1D44DA005CC355 /* Debug */,
+				7D310D001A1D44DA005CC355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D310D011A1D44DA005CC355 /* Build configuration list for PBXNativeTarget "AmityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D310D021A1D44DA005CC355 /* Debug */,
+				7D310D031A1D44DA005CC355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D310CD71A1D44DA005CC355 /* Project object */;
+}
