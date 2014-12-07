@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol UserAuthenticationErrorDelegate : NSObjectProtocol{
+    
+    func OnUserAuthenticationError(errorCode: Int32)
+}

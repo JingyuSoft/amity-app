@@ -3,12 +3,148 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "Amity.UserController.loginAmity (Amity.UserController)() -&gt; ():UserController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "FBSession.activeSession().accessTokenData.accessToken">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Amity.UserProfileController.viewDidLoad (Amity.UserProfileController)() -&gt; ():UserProfileController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Amity.UserManager.logIn (Amity.UserManager)() -&gt; ():UserManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "defaults.stringForKey(&quot;AmityUser&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Amity.UserProfileController.navigateToLoginPage (Amity.UserProfileController)() -&gt; ():UserProfileController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Amity.UserProfileController.logIn (Amity.UserProfileController)() -&gt; ():UserProfileController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.userName.text">
+            </PersistentString>
+            <PersistentString
+               value = "amityUser.userName">
+            </PersistentString>
+            <PersistentString
+               value = "amityUser?.userName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Amity.AppDelegate.sessionStateChanged (Amity.AppDelegate)(ObjectiveC.FBSession, state : C.FBSessionState, error : Swift.Optional&lt;ObjectiveC.NSError&gt;) -&gt; ():AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserManager.instance.delegate != nil">
+            </PersistentString>
+            <PersistentString
+               value = "UserManager.instance.delegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "Amity.TestAmityServiceControll.viewDidLoad (Amity.TestAmityServiceControll)() -&gt; ():TestAmityServiceController.swift">
          <PersistentStrings>
             <PersistentString
                value = "result">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Amity.UserController.buttonTouched (Amity.UserController)() -&gt; ():UserController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "FBSession.activeSession().state">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Amity.UserManager.logInAmity (Amity.UserManager)() -&gt; ():UserManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "result.errorCode">
+            </PersistentString>
+            <PersistentString
+               value = "result.authToken.value">
+            </PersistentString>
+            <PersistentString
+               value = "result.amityUser.firstName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Amity.UserController.viewDidLoad (Amity.UserController)() -&gt; ():UserController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "userView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Amity.UserController.(requestForUserInfo (Amity.UserController) -&gt; () -&gt; ()).(closure #1):UserController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.userView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Amity.UserManager.logInFacebook (Amity.UserManager)() -&gt; ():UserManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "FBSession.activeSession().state">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Amity.UserController.amityLoginStatusChanged (Amity.UserController)(Swift.Int32) -&gt; ():UserController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.amityResult">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Amity.AmityUser.init (Amity.AmityUser.Type)(coder : ObjectiveC.NSCoder) -&gt; Amity.AmityUser:AmityUser.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "aDecoder.decodeObjectForKey(&quot;userId&quot;) as NSNumber">
+            </PersistentString>
+            <PersistentString
+               value = "aDecoder.decodeObjectForKey(&quot;userId&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Amity.AppEntranceController.navigateToLoginPage (Amity.AppEntranceController)() -&gt; ():AppEntranceController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+            <PersistentString
+               value = "amityUser">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "swift_dynamicCastObjCClassUnconditional:(null)">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

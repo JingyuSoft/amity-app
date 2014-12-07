@@ -10,20 +10,6 @@
 		7D04002F1A2117BD00D2C7CF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D04FFFE1A2117BD00D2C7CF /* MapViewController.swift */; };
 		7D0400301A2117BD00D2C7CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D04FFFF1A2117BD00D2C7CF /* ViewController.swift */; };
 		7D0400311A2117BD00D2C7CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D0400001A2117BD00D2C7CF /* LaunchScreen.xib */; };
-		7D0400321A2117BD00D2C7CF /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400061A2117BD00D2C7CF /* TBinaryProtocol.m */; };
-		7D0400331A2117BD00D2C7CF /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400091A2117BD00D2C7CF /* TProtocolException.m */; };
-		7D0400341A2117BD00D2C7CF /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04000C1A2117BD00D2C7CF /* TProtocolUtil.m */; };
-		7D0400351A2117BD00D2C7CF /* TSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04000F1A2117BD00D2C7CF /* TSocketServer.m */; };
-		7D0400361A2117BD00D2C7CF /* TApplicationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400111A2117BD00D2C7CF /* TApplicationException.m */; };
-		7D0400371A2117BD00D2C7CF /* TException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400131A2117BD00D2C7CF /* TException.m */; };
-		7D0400381A2117BD00D2C7CF /* TFramedTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400191A2117BD00D2C7CF /* TFramedTransport.m */; };
-		7D0400391A2117BD00D2C7CF /* THTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04001B1A2117BD00D2C7CF /* THTTPClient.m */; };
-		7D04003A1A2117BD00D2C7CF /* TMemoryBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04001D1A2117BD00D2C7CF /* TMemoryBuffer.m */; };
-		7D04003B1A2117BD00D2C7CF /* TNSFileHandleTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04001F1A2117BD00D2C7CF /* TNSFileHandleTransport.m */; };
-		7D04003C1A2117BD00D2C7CF /* TNSStreamTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400211A2117BD00D2C7CF /* TNSStreamTransport.m */; };
-		7D04003D1A2117BD00D2C7CF /* TSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400231A2117BD00D2C7CF /* TSocketClient.m */; };
-		7D04003E1A2117BD00D2C7CF /* TTransportException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400261A2117BD00D2C7CF /* TTransportException.m */; };
-		7D04003F1A2117BD00D2C7CF /* TSharedProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400281A2117BD00D2C7CF /* TSharedProcessorFactory.m */; };
 		7D0400401A2117BD00D2C7CF /* AmityService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04002D1A2117BD00D2C7CF /* AmityService.m */; };
 		7D0400421A2117E100D2C7CF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D0400411A2117E100D2C7CF /* Info.plist */; };
 		7D0400441A21181200D2C7CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0400431A21181200D2C7CF /* AppDelegate.swift */; };
@@ -45,6 +31,40 @@
 		7D04FB631A20C5C300D2C7CF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04FB601A20C5C300D2C7CF /* SystemConfiguration.framework */; };
 		7D04FB651A20C66000D2C7CF /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7D04FB641A20C66000D2C7CF /* GoogleMaps.bundle */; };
 		7D310CFB1A1D44DA005CC355 /* AmityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D310CFA1A1D44DA005CC355 /* AmityTests.swift */; };
+		7D459D121A2279D700A7EB9E /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D459D111A2279D700A7EB9E /* PlaceMarker.swift */; };
+		7D857B761A2B3A5C002FC4D0 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D857B751A2B3A5C002FC4D0 /* UserManager.swift */; };
+		7D857B781A2BB1C5002FC4D0 /* UserStatusChangedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D857B771A2BB1C5002FC4D0 /* UserStatusChangedDelegate.swift */; };
+		7D9019431A334F2A00EE96DC /* AppEntranceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9019421A334F2A00EE96DC /* AppEntranceController.swift */; };
+		7D9019451A33516000EE96DC /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9019441A33516000EE96DC /* LoginController.swift */; };
+		7D99164F1A310C3F00A8EF69 /* AmityUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D99164E1A310C3F00A8EF69 /* AmityUser.swift */; };
+		7D9D6BFD1A32503F00AAF8EB /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9D6BFC1A32503F00AAF8EB /* UserProfileController.swift */; };
+		7D9FA0141A25359E00275B3D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9FA0131A25359E00275B3D /* FacebookSDK.framework */; };
+		7D9FA0161A25371800275B3D /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9FA0151A25371800275B3D /* UserController.swift */; };
+		7DB7CCFB1A2E622D00AABFA0 /* Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7CCFA1A2E622D00AABFA0 /* Authentication.m */; };
+		7DB7DAED1A2E6B9A00AABFA0 /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DAC11A2E6B9A00AABFA0 /* TBinaryProtocol.m */; };
+		7DB7DAEE1A2E6B9A00AABFA0 /* TMultiplexedProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DAC31A2E6B9A00AABFA0 /* TMultiplexedProtocol.m */; };
+		7DB7DAEF1A2E6B9A00AABFA0 /* TProtocolDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DAC61A2E6B9A00AABFA0 /* TProtocolDecorator.m */; };
+		7DB7DAF01A2E6B9A00AABFA0 /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DAC81A2E6B9A00AABFA0 /* TProtocolException.m */; };
+		7DB7DAF11A2E6B9A00AABFA0 /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DACB1A2E6B9A00AABFA0 /* TProtocolUtil.m */; };
+		7DB7DAF21A2E6B9A00AABFA0 /* TSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DACE1A2E6B9A00AABFA0 /* TSocketServer.m */; };
+		7DB7DAF31A2E6B9A00AABFA0 /* TApplicationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DAD01A2E6B9A00AABFA0 /* TApplicationException.m */; };
+		7DB7DAF41A2E6B9A00AABFA0 /* TException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DAD21A2E6B9A00AABFA0 /* TException.m */; };
+		7DB7DAF51A2E6B9A00AABFA0 /* TFramedTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DAD91A2E6B9A00AABFA0 /* TFramedTransport.m */; };
+		7DB7DAF61A2E6B9A00AABFA0 /* THTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DADB1A2E6B9A00AABFA0 /* THTTPClient.m */; };
+		7DB7DAF71A2E6B9A00AABFA0 /* TMemoryBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DADD1A2E6B9A00AABFA0 /* TMemoryBuffer.m */; };
+		7DB7DAF81A2E6B9A00AABFA0 /* TNSFileHandleTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DADF1A2E6B9A00AABFA0 /* TNSFileHandleTransport.m */; };
+		7DB7DAF91A2E6B9A00AABFA0 /* TNSStreamTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DAE11A2E6B9A00AABFA0 /* TNSStreamTransport.m */; };
+		7DB7DAFA1A2E6B9A00AABFA0 /* TSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DAE31A2E6B9A00AABFA0 /* TSocketClient.m */; };
+		7DB7DAFB1A2E6B9A00AABFA0 /* TSSLSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DAE51A2E6B9A00AABFA0 /* TSSLSocketClient.m */; };
+		7DB7DAFC1A2E6B9A00AABFA0 /* TSSLSocketException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DAE71A2E6B9A00AABFA0 /* TSSLSocketException.m */; };
+		7DB7DAFD1A2E6B9A00AABFA0 /* TTransportException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DAEA1A2E6B9A00AABFA0 /* TTransportException.m */; };
+		7DB7DAFE1A2E6B9A00AABFA0 /* TSharedProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7DAEC1A2E6B9A00AABFA0 /* TSharedProcessorFactory.m */; };
+		7DFCC7A71A339FC700B6FA28 /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFCC7A61A339FC700B6FA28 /* NavigationManager.swift */; };
+		7DFCC7A91A33AA3500B6FA28 /* UserAuthenticationErrorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFCC7A81A33AA3500B6FA28 /* UserAuthenticationErrorDelegate.swift */; };
+		7DFCC7B61A33B82E00B6FA28 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DFCC7B31A33B82E00B6FA28 /* Login.xib */; };
+		7DFCC7B71A33B82E00B6FA28 /* User.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DFCC7B41A33B82E00B6FA28 /* User.xib */; };
+		7DFCC7B81A33B82E00B6FA28 /* UserProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DFCC7B51A33B82E00B6FA28 /* UserProfile.xib */; };
+		7DFFA97E1A2A67F400226A52 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DFFA97D1A2A67F400226A52 /* Image.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,41 +79,6 @@
 
 /* Begin PBXFileReference section */
 		7D0400001A2117BD00D2C7CF /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		7D0400041A2117BD00D2C7CF /* TBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBase.h; sourceTree = "<group>"; };
-		7D0400051A2117BD00D2C7CF /* TBinaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBinaryProtocol.h; sourceTree = "<group>"; };
-		7D0400061A2117BD00D2C7CF /* TBinaryProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBinaryProtocol.m; sourceTree = "<group>"; };
-		7D0400071A2117BD00D2C7CF /* TProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocol.h; sourceTree = "<group>"; };
-		7D0400081A2117BD00D2C7CF /* TProtocolException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolException.h; sourceTree = "<group>"; };
-		7D0400091A2117BD00D2C7CF /* TProtocolException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolException.m; sourceTree = "<group>"; };
-		7D04000A1A2117BD00D2C7CF /* TProtocolFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolFactory.h; sourceTree = "<group>"; };
-		7D04000B1A2117BD00D2C7CF /* TProtocolUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolUtil.h; sourceTree = "<group>"; };
-		7D04000C1A2117BD00D2C7CF /* TProtocolUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolUtil.m; sourceTree = "<group>"; };
-		7D04000E1A2117BD00D2C7CF /* TSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketServer.h; sourceTree = "<group>"; };
-		7D04000F1A2117BD00D2C7CF /* TSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketServer.m; sourceTree = "<group>"; };
-		7D0400101A2117BD00D2C7CF /* TApplicationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TApplicationException.h; sourceTree = "<group>"; };
-		7D0400111A2117BD00D2C7CF /* TApplicationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TApplicationException.m; sourceTree = "<group>"; };
-		7D0400121A2117BD00D2C7CF /* TException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TException.h; sourceTree = "<group>"; };
-		7D0400131A2117BD00D2C7CF /* TException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TException.m; sourceTree = "<group>"; };
-		7D0400141A2117BD00D2C7CF /* TObjective-C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TObjective-C.h"; sourceTree = "<group>"; };
-		7D0400151A2117BD00D2C7CF /* TProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessor.h; sourceTree = "<group>"; };
-		7D0400161A2117BD00D2C7CF /* TProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessorFactory.h; sourceTree = "<group>"; };
-		7D0400181A2117BD00D2C7CF /* TFramedTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFramedTransport.h; sourceTree = "<group>"; };
-		7D0400191A2117BD00D2C7CF /* TFramedTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFramedTransport.m; sourceTree = "<group>"; };
-		7D04001A1A2117BD00D2C7CF /* THTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTTPClient.h; sourceTree = "<group>"; };
-		7D04001B1A2117BD00D2C7CF /* THTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTTPClient.m; sourceTree = "<group>"; };
-		7D04001C1A2117BD00D2C7CF /* TMemoryBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMemoryBuffer.h; sourceTree = "<group>"; };
-		7D04001D1A2117BD00D2C7CF /* TMemoryBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMemoryBuffer.m; sourceTree = "<group>"; };
-		7D04001E1A2117BD00D2C7CF /* TNSFileHandleTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSFileHandleTransport.h; sourceTree = "<group>"; };
-		7D04001F1A2117BD00D2C7CF /* TNSFileHandleTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSFileHandleTransport.m; sourceTree = "<group>"; };
-		7D0400201A2117BD00D2C7CF /* TNSStreamTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSStreamTransport.h; sourceTree = "<group>"; };
-		7D0400211A2117BD00D2C7CF /* TNSStreamTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSStreamTransport.m; sourceTree = "<group>"; };
-		7D0400221A2117BD00D2C7CF /* TSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketClient.h; sourceTree = "<group>"; };
-		7D0400231A2117BD00D2C7CF /* TSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketClient.m; sourceTree = "<group>"; };
-		7D0400241A2117BD00D2C7CF /* TTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransport.h; sourceTree = "<group>"; };
-		7D0400251A2117BD00D2C7CF /* TTransportException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransportException.h; sourceTree = "<group>"; };
-		7D0400261A2117BD00D2C7CF /* TTransportException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTransportException.m; sourceTree = "<group>"; };
-		7D0400271A2117BD00D2C7CF /* TSharedProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSharedProcessorFactory.h; sourceTree = "<group>"; };
-		7D0400281A2117BD00D2C7CF /* TSharedProcessorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSharedProcessorFactory.m; sourceTree = "<group>"; };
 		7D04002C1A2117BD00D2C7CF /* AmityService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmityService.h; sourceTree = "<group>"; };
 		7D04002D1A2117BD00D2C7CF /* AmityService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmityService.m; sourceTree = "<group>"; };
 		7D0400411A2117E100D2C7CF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -122,6 +107,67 @@
 		7D310CF41A1D44DA005CC355 /* AmityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D310CF91A1D44DA005CC355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D310CFA1A1D44DA005CC355 /* AmityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityTests.swift; sourceTree = "<group>"; };
+		7D459D111A2279D700A7EB9E /* PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
+		7D857B751A2B3A5C002FC4D0 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		7D857B771A2BB1C5002FC4D0 /* UserStatusChangedDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStatusChangedDelegate.swift; sourceTree = "<group>"; };
+		7D9019421A334F2A00EE96DC /* AppEntranceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEntranceController.swift; sourceTree = "<group>"; };
+		7D9019441A33516000EE96DC /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		7D99164E1A310C3F00A8EF69 /* AmityUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmityUser.swift; sourceTree = "<group>"; };
+		7D9D6BFC1A32503F00AAF8EB /* UserProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
+		7D9FA0131A25359E00275B3D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		7D9FA0151A25371800275B3D /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		7DB7CCF91A2E622D00AABFA0 /* Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
+		7DB7CCFA1A2E622D00AABFA0 /* Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Authentication.m; sourceTree = "<group>"; };
+		7DB7DABF1A2E6B9A00AABFA0 /* TBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBase.h; sourceTree = "<group>"; };
+		7DB7DAC01A2E6B9A00AABFA0 /* TBinaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBinaryProtocol.h; sourceTree = "<group>"; };
+		7DB7DAC11A2E6B9A00AABFA0 /* TBinaryProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBinaryProtocol.m; sourceTree = "<group>"; };
+		7DB7DAC21A2E6B9A00AABFA0 /* TMultiplexedProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMultiplexedProtocol.h; sourceTree = "<group>"; };
+		7DB7DAC31A2E6B9A00AABFA0 /* TMultiplexedProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMultiplexedProtocol.m; sourceTree = "<group>"; };
+		7DB7DAC41A2E6B9A00AABFA0 /* TProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocol.h; sourceTree = "<group>"; };
+		7DB7DAC51A2E6B9A00AABFA0 /* TProtocolDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolDecorator.h; sourceTree = "<group>"; };
+		7DB7DAC61A2E6B9A00AABFA0 /* TProtocolDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolDecorator.m; sourceTree = "<group>"; };
+		7DB7DAC71A2E6B9A00AABFA0 /* TProtocolException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolException.h; sourceTree = "<group>"; };
+		7DB7DAC81A2E6B9A00AABFA0 /* TProtocolException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolException.m; sourceTree = "<group>"; };
+		7DB7DAC91A2E6B9A00AABFA0 /* TProtocolFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolFactory.h; sourceTree = "<group>"; };
+		7DB7DACA1A2E6B9A00AABFA0 /* TProtocolUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolUtil.h; sourceTree = "<group>"; };
+		7DB7DACB1A2E6B9A00AABFA0 /* TProtocolUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolUtil.m; sourceTree = "<group>"; };
+		7DB7DACD1A2E6B9A00AABFA0 /* TSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketServer.h; sourceTree = "<group>"; };
+		7DB7DACE1A2E6B9A00AABFA0 /* TSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketServer.m; sourceTree = "<group>"; };
+		7DB7DACF1A2E6B9A00AABFA0 /* TApplicationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TApplicationException.h; sourceTree = "<group>"; };
+		7DB7DAD01A2E6B9A00AABFA0 /* TApplicationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TApplicationException.m; sourceTree = "<group>"; };
+		7DB7DAD11A2E6B9A00AABFA0 /* TException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TException.h; sourceTree = "<group>"; };
+		7DB7DAD21A2E6B9A00AABFA0 /* TException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TException.m; sourceTree = "<group>"; };
+		7DB7DAD31A2E6B9A00AABFA0 /* Thrift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thrift.h; sourceTree = "<group>"; };
+		7DB7DAD41A2E6B9A00AABFA0 /* TObjective-C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TObjective-C.h"; sourceTree = "<group>"; };
+		7DB7DAD51A2E6B9A00AABFA0 /* TProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessor.h; sourceTree = "<group>"; };
+		7DB7DAD61A2E6B9A00AABFA0 /* TProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessorFactory.h; sourceTree = "<group>"; };
+		7DB7DAD81A2E6B9A00AABFA0 /* TFramedTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFramedTransport.h; sourceTree = "<group>"; };
+		7DB7DAD91A2E6B9A00AABFA0 /* TFramedTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFramedTransport.m; sourceTree = "<group>"; };
+		7DB7DADA1A2E6B9A00AABFA0 /* THTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTTPClient.h; sourceTree = "<group>"; };
+		7DB7DADB1A2E6B9A00AABFA0 /* THTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTTPClient.m; sourceTree = "<group>"; };
+		7DB7DADC1A2E6B9A00AABFA0 /* TMemoryBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMemoryBuffer.h; sourceTree = "<group>"; };
+		7DB7DADD1A2E6B9A00AABFA0 /* TMemoryBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMemoryBuffer.m; sourceTree = "<group>"; };
+		7DB7DADE1A2E6B9A00AABFA0 /* TNSFileHandleTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSFileHandleTransport.h; sourceTree = "<group>"; };
+		7DB7DADF1A2E6B9A00AABFA0 /* TNSFileHandleTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSFileHandleTransport.m; sourceTree = "<group>"; };
+		7DB7DAE01A2E6B9A00AABFA0 /* TNSStreamTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSStreamTransport.h; sourceTree = "<group>"; };
+		7DB7DAE11A2E6B9A00AABFA0 /* TNSStreamTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSStreamTransport.m; sourceTree = "<group>"; };
+		7DB7DAE21A2E6B9A00AABFA0 /* TSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketClient.h; sourceTree = "<group>"; };
+		7DB7DAE31A2E6B9A00AABFA0 /* TSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketClient.m; sourceTree = "<group>"; };
+		7DB7DAE41A2E6B9A00AABFA0 /* TSSLSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSLSocketClient.h; sourceTree = "<group>"; };
+		7DB7DAE51A2E6B9A00AABFA0 /* TSSLSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSLSocketClient.m; sourceTree = "<group>"; };
+		7DB7DAE61A2E6B9A00AABFA0 /* TSSLSocketException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSLSocketException.h; sourceTree = "<group>"; };
+		7DB7DAE71A2E6B9A00AABFA0 /* TSSLSocketException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSLSocketException.m; sourceTree = "<group>"; };
+		7DB7DAE81A2E6B9A00AABFA0 /* TTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransport.h; sourceTree = "<group>"; };
+		7DB7DAE91A2E6B9A00AABFA0 /* TTransportException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransportException.h; sourceTree = "<group>"; };
+		7DB7DAEA1A2E6B9A00AABFA0 /* TTransportException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTransportException.m; sourceTree = "<group>"; };
+		7DB7DAEB1A2E6B9A00AABFA0 /* TSharedProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSharedProcessorFactory.h; sourceTree = "<group>"; };
+		7DB7DAEC1A2E6B9A00AABFA0 /* TSharedProcessorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSharedProcessorFactory.m; sourceTree = "<group>"; };
+		7DFCC7A61A339FC700B6FA28 /* NavigationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		7DFCC7A81A33AA3500B6FA28 /* UserAuthenticationErrorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAuthenticationErrorDelegate.swift; sourceTree = "<group>"; };
+		7DFCC7B31A33B82E00B6FA28 /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		7DFCC7B41A33B82E00B6FA28 /* User.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = User.xib; sourceTree = "<group>"; };
+		7DFCC7B51A33B82E00B6FA28 /* UserProfile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserProfile.xib; sourceTree = "<group>"; };
+		7DFFA97D1A2A67F400226A52 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +186,7 @@
 				7D04FB5C1A20C59D00D2C7CF /* libicucore.dylib in Frameworks */,
 				7D04FB5D1A20C59D00D2C7CF /* libz.dylib in Frameworks */,
 				7D04FB4D1A20C53E00D2C7CF /* AVFoundation.framework in Frameworks */,
+				7D9FA0141A25359E00275B3D /* FacebookSDK.framework in Frameworks */,
 				7D04FB4E1A20C53E00D2C7CF /* CoreFoundation.framework in Frameworks */,
 				7D04FB4F1A20C53E00D2C7CF /* CoreLocation.framework in Frameworks */,
 				7D04FB491A20C50200D2C7CF /* GoogleMaps.framework in Frameworks */,
@@ -159,88 +206,19 @@
 		7D0400011A2117BD00D2C7CF /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				7D0400021A2117BD00D2C7CF /* Thrift */,
+				7DB7DABD1A2E6B9A00AABFA0 /* Thrift */,
 			);
 			path = Library;
-			sourceTree = "<group>";
-		};
-		7D0400021A2117BD00D2C7CF /* Thrift */ = {
-			isa = PBXGroup;
-			children = (
-				7D0400031A2117BD00D2C7CF /* protocol */,
-				7D04000D1A2117BD00D2C7CF /* server */,
-				7D0400101A2117BD00D2C7CF /* TApplicationException.h */,
-				7D0400111A2117BD00D2C7CF /* TApplicationException.m */,
-				7D0400121A2117BD00D2C7CF /* TException.h */,
-				7D0400131A2117BD00D2C7CF /* TException.m */,
-				7D0400141A2117BD00D2C7CF /* TObjective-C.h */,
-				7D0400151A2117BD00D2C7CF /* TProcessor.h */,
-				7D0400161A2117BD00D2C7CF /* TProcessorFactory.h */,
-				7D0400171A2117BD00D2C7CF /* transport */,
-				7D0400271A2117BD00D2C7CF /* TSharedProcessorFactory.h */,
-				7D0400281A2117BD00D2C7CF /* TSharedProcessorFactory.m */,
-			);
-			path = Thrift;
-			sourceTree = "<group>";
-		};
-		7D0400031A2117BD00D2C7CF /* protocol */ = {
-			isa = PBXGroup;
-			children = (
-				7D0400041A2117BD00D2C7CF /* TBase.h */,
-				7D0400051A2117BD00D2C7CF /* TBinaryProtocol.h */,
-				7D0400061A2117BD00D2C7CF /* TBinaryProtocol.m */,
-				7D0400071A2117BD00D2C7CF /* TProtocol.h */,
-				7D0400081A2117BD00D2C7CF /* TProtocolException.h */,
-				7D0400091A2117BD00D2C7CF /* TProtocolException.m */,
-				7D04000A1A2117BD00D2C7CF /* TProtocolFactory.h */,
-				7D04000B1A2117BD00D2C7CF /* TProtocolUtil.h */,
-				7D04000C1A2117BD00D2C7CF /* TProtocolUtil.m */,
-			);
-			path = protocol;
-			sourceTree = "<group>";
-		};
-		7D04000D1A2117BD00D2C7CF /* server */ = {
-			isa = PBXGroup;
-			children = (
-				7D04000E1A2117BD00D2C7CF /* TSocketServer.h */,
-				7D04000F1A2117BD00D2C7CF /* TSocketServer.m */,
-			);
-			path = server;
-			sourceTree = "<group>";
-		};
-		7D0400171A2117BD00D2C7CF /* transport */ = {
-			isa = PBXGroup;
-			children = (
-				7D0400181A2117BD00D2C7CF /* TFramedTransport.h */,
-				7D0400191A2117BD00D2C7CF /* TFramedTransport.m */,
-				7D04001A1A2117BD00D2C7CF /* THTTPClient.h */,
-				7D04001B1A2117BD00D2C7CF /* THTTPClient.m */,
-				7D04001C1A2117BD00D2C7CF /* TMemoryBuffer.h */,
-				7D04001D1A2117BD00D2C7CF /* TMemoryBuffer.m */,
-				7D04001E1A2117BD00D2C7CF /* TNSFileHandleTransport.h */,
-				7D04001F1A2117BD00D2C7CF /* TNSFileHandleTransport.m */,
-				7D0400201A2117BD00D2C7CF /* TNSStreamTransport.h */,
-				7D0400211A2117BD00D2C7CF /* TNSStreamTransport.m */,
-				7D0400221A2117BD00D2C7CF /* TSocketClient.h */,
-				7D0400231A2117BD00D2C7CF /* TSocketClient.m */,
-				7D0400241A2117BD00D2C7CF /* TTransport.h */,
-				7D0400251A2117BD00D2C7CF /* TTransportException.h */,
-				7D0400261A2117BD00D2C7CF /* TTransportException.m */,
-			);
-			path = transport;
-			sourceTree = "<group>";
-		};
-		7D0400291A2117BD00D2C7CF /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		7D04002A1A2117BD00D2C7CF /* Service */ = {
 			isa = PBXGroup;
 			children = (
 				7D04002B1A2117BD00D2C7CF /* Generated */,
+				7D857B751A2B3A5C002FC4D0 /* UserManager.swift */,
+				7D857B771A2BB1C5002FC4D0 /* UserStatusChangedDelegate.swift */,
+				7DFCC7A61A339FC700B6FA28 /* NavigationManager.swift */,
+				7DFCC7A81A33AA3500B6FA28 /* UserAuthenticationErrorDelegate.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -248,22 +226,18 @@
 		7D04002B1A2117BD00D2C7CF /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				7DB7CCF91A2E622D00AABFA0 /* Authentication.h */,
+				7DB7CCFA1A2E622D00AABFA0 /* Authentication.m */,
 				7D04002C1A2117BD00D2C7CF /* AmityService.h */,
 				7D04002D1A2117BD00D2C7CF /* AmityService.m */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
 		};
-		7D04002E1A2117BD00D2C7CF /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		7D04FB471A20C4EE00D2C7CF /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				7D9FA0131A25359E00275B3D /* FacebookSDK.framework */,
 				7D04FB641A20C66000D2C7CF /* GoogleMaps.bundle */,
 				7D04FB5F1A20C5C300D2C7CF /* QuartzCore.framework */,
 				7D04FB601A20C5C300D2C7CF /* SystemConfiguration.framework */,
@@ -286,16 +260,16 @@
 		7D04FFFB1A2117BD00D2C7CF /* Amity */ = {
 			isa = PBXGroup;
 			children = (
+				7D04FFFC1A2117BD00D2C7CF /* Amity-Bridging-Header.h */,
+				7D0400411A2117E100D2C7CF /* Info.plist */,
 				7D0400451A2119E800D2C7CF /* Main.storyboard */,
 				7D0400431A21181200D2C7CF /* AppDelegate.swift */,
-				7D0400411A2117E100D2C7CF /* Info.plist */,
-				7D04FFFC1A2117BD00D2C7CF /* Amity-Bridging-Header.h */,
-				7D04FFFD1A2117BD00D2C7CF /* Controller */,
 				7D0400001A2117BD00D2C7CF /* LaunchScreen.xib */,
+				7D04FFFD1A2117BD00D2C7CF /* Controller */,
 				7D0400011A2117BD00D2C7CF /* Library */,
-				7D0400291A2117BD00D2C7CF /* Model */,
+				7D459D101A2279D700A7EB9E /* Model */,
 				7D04002A1A2117BD00D2C7CF /* Service */,
-				7D04002E1A2117BD00D2C7CF /* View */,
+				7DFCC7B21A33B82E00B6FA28 /* View */,
 			);
 			path = Amity;
 			sourceTree = "<group>";
@@ -306,6 +280,10 @@
 				7D04FFFE1A2117BD00D2C7CF /* MapViewController.swift */,
 				7D04FFFF1A2117BD00D2C7CF /* ViewController.swift */,
 				7D0400471A211B3100D2C7CF /* TestAmityServiceController.swift */,
+				7D9FA0151A25371800275B3D /* UserController.swift */,
+				7D9D6BFC1A32503F00AAF8EB /* UserProfileController.swift */,
+				7D9019421A334F2A00EE96DC /* AppEntranceController.swift */,
+				7D9019441A33516000EE96DC /* LoginController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -313,6 +291,7 @@
 		7D310CD61A1D44DA005CC355 = {
 			isa = PBXGroup;
 			children = (
+				7DFFA97D1A2A67F400226A52 /* Image.xcassets */,
 				7D04FFFB1A2117BD00D2C7CF /* Amity */,
 				7D04FB471A20C4EE00D2C7CF /* Framework */,
 				7D310CF71A1D44DA005CC355 /* AmityTests */,
@@ -344,6 +323,100 @@
 				7D310CF91A1D44DA005CC355 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D459D101A2279D700A7EB9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D459D111A2279D700A7EB9E /* PlaceMarker.swift */,
+				7D99164E1A310C3F00A8EF69 /* AmityUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DB7DABD1A2E6B9A00AABFA0 /* Thrift */ = {
+			isa = PBXGroup;
+			children = (
+				7DB7DABE1A2E6B9A00AABFA0 /* protocol */,
+				7DB7DACC1A2E6B9A00AABFA0 /* server */,
+				7DB7DACF1A2E6B9A00AABFA0 /* TApplicationException.h */,
+				7DB7DAD01A2E6B9A00AABFA0 /* TApplicationException.m */,
+				7DB7DAD11A2E6B9A00AABFA0 /* TException.h */,
+				7DB7DAD21A2E6B9A00AABFA0 /* TException.m */,
+				7DB7DAD31A2E6B9A00AABFA0 /* Thrift.h */,
+				7DB7DAD41A2E6B9A00AABFA0 /* TObjective-C.h */,
+				7DB7DAD51A2E6B9A00AABFA0 /* TProcessor.h */,
+				7DB7DAD61A2E6B9A00AABFA0 /* TProcessorFactory.h */,
+				7DB7DAD71A2E6B9A00AABFA0 /* transport */,
+				7DB7DAEB1A2E6B9A00AABFA0 /* TSharedProcessorFactory.h */,
+				7DB7DAEC1A2E6B9A00AABFA0 /* TSharedProcessorFactory.m */,
+			);
+			path = Thrift;
+			sourceTree = "<group>";
+		};
+		7DB7DABE1A2E6B9A00AABFA0 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				7DB7DABF1A2E6B9A00AABFA0 /* TBase.h */,
+				7DB7DAC01A2E6B9A00AABFA0 /* TBinaryProtocol.h */,
+				7DB7DAC11A2E6B9A00AABFA0 /* TBinaryProtocol.m */,
+				7DB7DAC21A2E6B9A00AABFA0 /* TMultiplexedProtocol.h */,
+				7DB7DAC31A2E6B9A00AABFA0 /* TMultiplexedProtocol.m */,
+				7DB7DAC41A2E6B9A00AABFA0 /* TProtocol.h */,
+				7DB7DAC51A2E6B9A00AABFA0 /* TProtocolDecorator.h */,
+				7DB7DAC61A2E6B9A00AABFA0 /* TProtocolDecorator.m */,
+				7DB7DAC71A2E6B9A00AABFA0 /* TProtocolException.h */,
+				7DB7DAC81A2E6B9A00AABFA0 /* TProtocolException.m */,
+				7DB7DAC91A2E6B9A00AABFA0 /* TProtocolFactory.h */,
+				7DB7DACA1A2E6B9A00AABFA0 /* TProtocolUtil.h */,
+				7DB7DACB1A2E6B9A00AABFA0 /* TProtocolUtil.m */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		7DB7DACC1A2E6B9A00AABFA0 /* server */ = {
+			isa = PBXGroup;
+			children = (
+				7DB7DACD1A2E6B9A00AABFA0 /* TSocketServer.h */,
+				7DB7DACE1A2E6B9A00AABFA0 /* TSocketServer.m */,
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		7DB7DAD71A2E6B9A00AABFA0 /* transport */ = {
+			isa = PBXGroup;
+			children = (
+				7DB7DAD81A2E6B9A00AABFA0 /* TFramedTransport.h */,
+				7DB7DAD91A2E6B9A00AABFA0 /* TFramedTransport.m */,
+				7DB7DADA1A2E6B9A00AABFA0 /* THTTPClient.h */,
+				7DB7DADB1A2E6B9A00AABFA0 /* THTTPClient.m */,
+				7DB7DADC1A2E6B9A00AABFA0 /* TMemoryBuffer.h */,
+				7DB7DADD1A2E6B9A00AABFA0 /* TMemoryBuffer.m */,
+				7DB7DADE1A2E6B9A00AABFA0 /* TNSFileHandleTransport.h */,
+				7DB7DADF1A2E6B9A00AABFA0 /* TNSFileHandleTransport.m */,
+				7DB7DAE01A2E6B9A00AABFA0 /* TNSStreamTransport.h */,
+				7DB7DAE11A2E6B9A00AABFA0 /* TNSStreamTransport.m */,
+				7DB7DAE21A2E6B9A00AABFA0 /* TSocketClient.h */,
+				7DB7DAE31A2E6B9A00AABFA0 /* TSocketClient.m */,
+				7DB7DAE41A2E6B9A00AABFA0 /* TSSLSocketClient.h */,
+				7DB7DAE51A2E6B9A00AABFA0 /* TSSLSocketClient.m */,
+				7DB7DAE61A2E6B9A00AABFA0 /* TSSLSocketException.h */,
+				7DB7DAE71A2E6B9A00AABFA0 /* TSSLSocketException.m */,
+				7DB7DAE81A2E6B9A00AABFA0 /* TTransport.h */,
+				7DB7DAE91A2E6B9A00AABFA0 /* TTransportException.h */,
+				7DB7DAEA1A2E6B9A00AABFA0 /* TTransportException.m */,
+			);
+			path = transport;
+			sourceTree = "<group>";
+		};
+		7DFCC7B21A33B82E00B6FA28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DFCC7B31A33B82E00B6FA28 /* Login.xib */,
+				7DFCC7B41A33B82E00B6FA28 /* User.xib */,
+				7DFCC7B51A33B82E00B6FA28 /* UserProfile.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -459,10 +532,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DFCC7B81A33B82E00B6FA28 /* UserProfile.xib in Resources */,
 				7D0400311A2117BD00D2C7CF /* LaunchScreen.xib in Resources */,
 				7D0400461A2119E800D2C7CF /* Main.storyboard in Resources */,
+				7DFFA97E1A2A67F400226A52 /* Image.xcassets in Resources */,
 				7D04FB651A20C66000D2C7CF /* GoogleMaps.bundle in Resources */,
+				7DFCC7B71A33B82E00B6FA28 /* User.xib in Resources */,
 				7D0400421A2117E100D2C7CF /* Info.plist in Resources */,
+				7DFCC7B61A33B82E00B6FA28 /* Login.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,24 +558,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D0400481A211B3100D2C7CF /* TestAmityServiceController.swift in Sources */,
-				7D0400361A2117BD00D2C7CF /* TApplicationException.m in Sources */,
-				7D0400391A2117BD00D2C7CF /* THTTPClient.m in Sources */,
-				7D0400341A2117BD00D2C7CF /* TProtocolUtil.m in Sources */,
-				7D04003A1A2117BD00D2C7CF /* TMemoryBuffer.m in Sources */,
-				7D0400371A2117BD00D2C7CF /* TException.m in Sources */,
-				7D0400331A2117BD00D2C7CF /* TProtocolException.m in Sources */,
-				7D0400351A2117BD00D2C7CF /* TSocketServer.m in Sources */,
-				7D04003F1A2117BD00D2C7CF /* TSharedProcessorFactory.m in Sources */,
+				7D857B781A2BB1C5002FC4D0 /* UserStatusChangedDelegate.swift in Sources */,
+				7DB7DAEF1A2E6B9A00AABFA0 /* TProtocolDecorator.m in Sources */,
 				7D0400401A2117BD00D2C7CF /* AmityService.m in Sources */,
-				7D04003C1A2117BD00D2C7CF /* TNSStreamTransport.m in Sources */,
 				7D0400301A2117BD00D2C7CF /* ViewController.swift in Sources */,
+				7D9019431A334F2A00EE96DC /* AppEntranceController.swift in Sources */,
+				7DB7DAF11A2E6B9A00AABFA0 /* TProtocolUtil.m in Sources */,
+				7DB7DAF31A2E6B9A00AABFA0 /* TApplicationException.m in Sources */,
+				7DB7DAEE1A2E6B9A00AABFA0 /* TMultiplexedProtocol.m in Sources */,
+				7D9D6BFD1A32503F00AAF8EB /* UserProfileController.swift in Sources */,
 				7D04002F1A2117BD00D2C7CF /* MapViewController.swift in Sources */,
+				7DFCC7A71A339FC700B6FA28 /* NavigationManager.swift in Sources */,
 				7D0400441A21181200D2C7CF /* AppDelegate.swift in Sources */,
-				7D04003B1A2117BD00D2C7CF /* TNSFileHandleTransport.m in Sources */,
-				7D0400381A2117BD00D2C7CF /* TFramedTransport.m in Sources */,
-				7D04003D1A2117BD00D2C7CF /* TSocketClient.m in Sources */,
-				7D0400321A2117BD00D2C7CF /* TBinaryProtocol.m in Sources */,
-				7D04003E1A2117BD00D2C7CF /* TTransportException.m in Sources */,
+				7DB7DAF41A2E6B9A00AABFA0 /* TException.m in Sources */,
+				7D9019451A33516000EE96DC /* LoginController.swift in Sources */,
+				7DB7DAF81A2E6B9A00AABFA0 /* TNSFileHandleTransport.m in Sources */,
+				7DB7DAF61A2E6B9A00AABFA0 /* THTTPClient.m in Sources */,
+				7DB7DAF51A2E6B9A00AABFA0 /* TFramedTransport.m in Sources */,
+				7DFCC7A91A33AA3500B6FA28 /* UserAuthenticationErrorDelegate.swift in Sources */,
+				7D459D121A2279D700A7EB9E /* PlaceMarker.swift in Sources */,
+				7DB7CCFB1A2E622D00AABFA0 /* Authentication.m in Sources */,
+				7DB7DAFC1A2E6B9A00AABFA0 /* TSSLSocketException.m in Sources */,
+				7DB7DAF01A2E6B9A00AABFA0 /* TProtocolException.m in Sources */,
+				7DB7DAED1A2E6B9A00AABFA0 /* TBinaryProtocol.m in Sources */,
+				7D9FA0161A25371800275B3D /* UserController.swift in Sources */,
+				7DB7DAF71A2E6B9A00AABFA0 /* TMemoryBuffer.m in Sources */,
+				7DB7DAF21A2E6B9A00AABFA0 /* TSocketServer.m in Sources */,
+				7D857B761A2B3A5C002FC4D0 /* UserManager.swift in Sources */,
+				7DB7DAFE1A2E6B9A00AABFA0 /* TSharedProcessorFactory.m in Sources */,
+				7DB7DAFD1A2E6B9A00AABFA0 /* TTransportException.m in Sources */,
+				7DB7DAFB1A2E6B9A00AABFA0 /* TSSLSocketClient.m in Sources */,
+				7D99164F1A310C3F00A8EF69 /* AmityUser.swift in Sources */,
+				7DB7DAFA1A2E6B9A00AABFA0 /* TSocketClient.m in Sources */,
+				7DB7DAF91A2E6B9A00AABFA0 /* TNSStreamTransport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,7 +695,7 @@
 		7D310CFF1A1D44DA005CC355 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -623,7 +715,7 @@
 		7D310D001A1D44DA005CC355 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

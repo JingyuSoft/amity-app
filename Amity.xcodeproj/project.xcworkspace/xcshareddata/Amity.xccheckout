@@ -10,6 +10,8 @@
 	<string>Amity</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>0C00297339B575E3261138878C87129693D3B4D0</key>
+		<string>https://github.com/apache/thrift.git</string>
 		<key>76C0F12E8683C41F831D3A1011F818AE75DECD1C</key>
 		<string>https://github.com/JingyuSoft/amity-app.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>Amity.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>0C00297339B575E3261138878C87129693D3B4D0</key>
+		<string>../../Amity/Library/thrift</string>
 		<key>76C0F12E8683C41F831D3A1011F818AE75DECD1C</key>
 		<string>../..</string>
 	</dict>
@@ -35,6 +39,14 @@
 			<string>76C0F12E8683C41F831D3A1011F818AE75DECD1C</string>
 			<key>IDESourceControlWCCName</key>
 			<string>amity-app</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0C00297339B575E3261138878C87129693D3B4D0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>thrift</string>
 		</dict>
 	</array>
 </dict>

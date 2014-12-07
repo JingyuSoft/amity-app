@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+private let navigationManager = NavigationManager()
+
+class NavigationManager : NSObject{
+    
+    class var instance : NavigationManager{
+        return navigationManager
+    }
+    
+    func navigate(controller:UIViewController, navigationController:UINavigationController, identifier: String){
+        
+        let userController = controller.storyboard!.instantiateViewControllerWithIdentifier(identifier) as UIViewController
+        navigationController.pushViewController(userController, animated: true)
+    }
+}

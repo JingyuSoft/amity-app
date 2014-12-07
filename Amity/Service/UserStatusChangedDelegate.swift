@@ -6,4 +6,9 @@
 //  Copyright (c) 2014 Jingyu Soft. All rights reserved.
 //
 
-import Foundation
+protocol UserStatusChangedDelegate : NSObjectProtocol{
+    
+    func faceBookSessionStateChanged(session:FBSession, state:FBSessionState, error:NSError?)
+    
+    func amityLoginStatusChanged(errorCode: Int32)
+}
